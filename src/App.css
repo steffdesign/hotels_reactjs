@@ -1,0 +1,53 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.containerAll, header{
+  margin:0 !important;
+  padding: 0 !important;
+  width: 100%;
+}
+.containerHotels{
+  margin:10px !important;
+  padding: 10px !important;
+}
+.headerSection{
+  margin:0 !important;
+  padding: 0 !important;
+  display: inline;
+}
+.headerSection img{
+  padding: 10px !important;
+  width: 250px;
+}
+.containerFilters h3{
+  background: #fff;
+  padding:20px;
+  margin-top:10px;
+  margin-bottom:5px;
+}
